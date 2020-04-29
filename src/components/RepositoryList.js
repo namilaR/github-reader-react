@@ -14,7 +14,6 @@ class RepositoryList extends React.Component {
 
     constructor(props) {
         super(props);
-        console.log(props.match.params.userName);
         this.loadReadMe = this.loadReadMe.bind(this);
     }
 

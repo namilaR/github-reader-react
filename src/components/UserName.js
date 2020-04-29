@@ -16,8 +16,6 @@ class UserName extends React.Component {
 
     onSubmit(e) {
         e.preventDefault();
-        console.log(this.state);
-        // this.setState({ redirect:  });
         this.props.history.push('/repos/'+ this.state.userName)
 
     }
