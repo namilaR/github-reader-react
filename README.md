@@ -1,3 +1,7 @@
+# Git Hub Reader React
+
+Git hub reader single page web application developed using React JS,  that displays users's Git Hub projects and let you view the projects  README. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
