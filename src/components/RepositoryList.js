@@ -60,6 +60,8 @@ class RepositoryList extends React.Component {
                 ) : (
                         <span></span>
                     )}
+
+                <Link to={`/`}>Go Back</Link>
             </div>
         )
     }

@@ -10,15 +10,15 @@ function App() {
   return (
 
     <BrowserRouter>
-      <Header/>
-      <Switch>
-        <div className="container margin-top-20">
+      <Header />
+      <div className="container margin-top-20">
+        <Switch>
           <Route exact path="/" component={UserName}></Route>
           <Route exact path="/repos/:userName" component={RepositoryList}></Route>
           <Route exact path="/repos/:userName/:mdFileName" component={MarkDownPreview}></Route>
-        </div>
 
-      </Switch>
+        </Switch>
+      </div>
     </BrowserRouter>
 
   );

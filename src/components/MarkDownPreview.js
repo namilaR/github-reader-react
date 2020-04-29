@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import config from '../config';
 import ReactMarkdown  from 'react-markdown';
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 class MarkDownPreview extends React.Component {
     
     state = {
@@ -44,6 +44,8 @@ class MarkDownPreview extends React.Component {
                ) : (
                    <span></span>
                )}
+
+                <Link to={`/repos/${this.props.match.params.userName}`}>Go Back</Link>
             </div>
         )
     }
